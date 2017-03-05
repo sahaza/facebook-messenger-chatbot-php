@@ -3,7 +3,7 @@
  * Webhook file. User can access via /messenger/
  */
 
-if ( isset( $_REQUEST['hub_verify_token'] ) && $_REQUEST['hub_verify_token'] == 'FacebookMessengerBotQuickStarter' ) 
+if ( isset( $_REQUEST['hub_verify_token'] ) && $_REQUEST['hub_verify_token'] == 'FacebookMessengerChatBot' ) 
 {
 	echo $_REQUEST['hub_challenge'];
 
